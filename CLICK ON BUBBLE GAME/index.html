@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click the Bubbles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Click the Bubbles Game!</h1>
+        <p id="instructions" style="padding-bottom: 4px;">Press the key corresponding to the bubble to score points. <br> The game ends when the timer runs out.</p>
+        <div id="bubble-container">
+            <h3 style="text-align: center; margin-top: 120px;" >Alphabets & Numbers appear here</h3>
+        </div>
+        <div id="score">Score: 0</div>
+        <div id="timer">Time left: 60s</div>
+        <div id="final-score" class="hidden">Final Score: 0</div>
+        <button id="restart-button" class="hidden">Play Again</button>
+        <button id="start-button">Start Game</button>
+
+    </div>
+
+    <audio id="correct-sound" src="correct-6033.mp3" preload="auto"></audio>
+<audio id="wrong-sound" src="error-4-199275.mp3" preload="auto"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
